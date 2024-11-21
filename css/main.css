@@ -5,18 +5,23 @@
     font-family: Arial, sans-serif;
 } */
 
-/* :root {
-    --bs-primary: #3C0E53;
-}
 
 .btn-primary {
-    color: var(--bs-primary)
-} */
+    background-color: #3C0E53;
+    border-color: #3C0E53;
+}
+
+.btn-primary:hover {
+    background-color: #561676;
+    border-color: #561676;
+}
+
 
 .header-section {
     background: url('../images/pexels-pixabay-415071.jpg') no-repeat center center/cover;
     color: black;
     padding: 60px 0;
+    width: 100%;
 }
 
 .header-section h1 {
@@ -37,12 +42,9 @@
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    transition: 0.3s;
+    min-height: 350px;
 }
 
-.services-section .service-card:hover {
-    transform: translateY(-5px);
-}
 
 .services-section .service-card h5 {
     font-size: 1.3rem;
@@ -64,6 +66,7 @@
     background-color: #6c63ff;
     color: #fff;
 }
+
 
 /* Reviews Section */
 .reviews-section .review-card {
@@ -90,3 +93,34 @@
     margin: 0 10px;
 }
 
+/* services page */
+
+.navbar-brand {
+    font-weight: bold;
+  }
+  .hero-image {
+    background-image: url('../images/pexels-vlada-karpovich-4050315.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+  .service-card {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    background-color: #fff;
+  }
+  .btn-contact {
+    background-color: #5c3a9e;
+    color: #fff;
+    font-weight: bold;
+  }
+  .btn-contact:hover {
+    background-color: #462a7a;
+  }
+  footer {
+    background-color: #5c3a9e;
+    color: #fff;
+    padding: 20px 0;
+  }
