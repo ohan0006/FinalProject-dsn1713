@@ -4,7 +4,7 @@
 /* body {
     font-family: Arial, sans-serif;
 } */
-
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
 
 .btn-primary {
     background-color: #3C0E53;
@@ -129,3 +129,19 @@
 .btn-contact:hover {
     background-color: #462a7a;
 }
+
+.contact-card {
+    background-color: #3C0E53;
+}
+
+.explore-more {
+    background-image: url(../images/pexels-emily-252615-768125.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.bobbi-image {
+    max-width: 250px;
+}
+
+
